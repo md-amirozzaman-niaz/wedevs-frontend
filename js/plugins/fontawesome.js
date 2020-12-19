@@ -13,7 +13,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
-  faUser, faLock, faSignOutAlt, faCog, faGithub,  faEdit, faTrashAlt
+  faUser, faLock, faSignOutAlt, faCog, faGithub,  faEdit, faTrashAlt,  faTachometerAlt
 )
 
 Vue.component('Fa', FontAwesomeIcon)
