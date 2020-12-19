@@ -27,6 +27,10 @@
               {{ user.name }}
             </a>
             <div class="dropdown-menu">
+              <router-link :to="{ name: 'dashboard' }" class="dropdown-item pl-3">
+                <fa icon="tachometer-alt" fixed-width />
+                {{ $t('dashboard') }}
+              </router-link>
               <router-link :to="{ name: 'settings.profile' }" class="dropdown-item pl-3">
                 <fa icon="cog" fixed-width />
                 {{ $t('settings') }}
